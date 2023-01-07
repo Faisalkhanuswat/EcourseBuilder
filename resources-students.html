@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link rel="shortcut icon" href="./assets/Group 21.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+
+<body>
+    <!-- ------------------navbar-------------------------- -->
+    <nav class="navbar navbar-expand-xl bg-white px-md-2 py-3 w-100" style="z-index: 999">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="./assets/ECourse Builder Logo.svg" alt="" class="site-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-lg-0 nav-menu my-5 my-md-5 my-lg-5 my-xl-0 my-xxl-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./features.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features
+              </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="./features.html#lms">LMS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./features.html#byetalk">Bye Talk</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#whiteboard"
+                    >Whiteboard</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#eDoc"
+                    >E-Doc Editor</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#alert-system"
+                    >Inside Room</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#presentation"
+                    >Presentation</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#my-courses"
+                    >My Courses</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#assignments"
+                    >Assignment</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#gradebook"
+                    >Gradebook</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#calendar"
+                    >Calendar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#drive"
+                    >Drive</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Industries
+              </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="./industries-higher-education.html">Higher Education</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Government</a></li>
+                                    <li><a class="dropdown-item" href="#">Business</a></li>
+                                    <li><a class="dropdown-item" href="#">Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="./resources-students.html">Students</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./resources-teachers.html"
+                    >Teacher</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./resources-administrators.html"
+                    >Administration</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Parents</a></li>
+                                    <li><a class="dropdown-item" href="#">Tutorials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./support.html">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About Us</a>
+                            </li>
+                        </ul>
+                        <ul class="login-navbar-nav ps-0 mt-5 mt-md-5 mt-lg-5 mt-xl-0 mt-xxl-0">
+                            <li class="nav-item signup-btn">
+                                <a class="nav-link" aria-current="page" href="/ecb/public/signup">Sign up for Free</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/ecb/public/login"
+                >sign in</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------page-content----------------------------- -->
+
+    <section class="container-fluid students-page-hero py-5 px-0  mt-5 mt-md-5 mt-lg-5 mt-xl-0">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4 px-md-4 px-lg-4 px-xl-5 px-xxl-5 py-5">
+                    <h2>Resources for Students </h2>
+                    <p>E-Course Builder was created to empower the next generation of students to maximize their learning potential. Our powerful education management system has all the learning tools needed to give students everything they need to succeed.
+                        E-Course Builder is much more than an LMS – it is an all-in-one tool that enables students to compete in the 21’st century.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid students-page-second py-5 px-0 my-4">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4 px-md-4 px-lg-4 px-xl-5 px-xxl-5 py-5">
+                    <h3>Technology </h3>
+                    <p>E-Course Builder is a LMS system equipped with the most advance learning technology ever created including, whiteboard, video conferencing, document editing tools, presentation creator, drive, and so much more. Our company is dedicated
+                        to winning the education battle that will define America’s future. The current education system is unfortunately not producing results sufficient with the demands needed to have sustainable growth.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid students-page-third py-5 px-0">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4 px-md-4 px-lg-4 px-xl-5 px-xxl-5 py-5">
+                    <h3>Time to Win the Education Battle</h3>
+                    <p>Education ultimately is all about the student. To make sure the student can do well, professors must have the necessary tools, technology, customizable high-quality courses to help propel students to reach their learning goals. E Course
+                        Builder is the solution teachers need to maximize student learning outcomes.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid students-page-fourth py-5 px-0 my-4">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4 px-md-4 px-lg-4 px-xl-5 px-xxl-5 py-5">
+                    <h3>Love of Learning </h3>
+                    <p>Our education management software encourages a love of learning for students. Our platform of connective education learning products makes learning fun, dynamic, and easier than ever. Students have every tool at their disposal. Our
+                        software system has unique tools that allow students to customize digital textbooks and store them in their digital library, create pitch decks and presentations, build videos, design ideas, store a lifetime of learning and build
+                        ideas that change the world.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid students-page-fifth py-5 px-0 mt-4">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4 px-md-4 px-lg-4 px-xl-5 px-xxl-5 py-5">
+                    <h3>Lifetime of Learning </h3>
+                    <p>E-Course Builder was built with the intention of giving students the necessary resources they need to become the most intelligent and creative versions of themselves. Our online educational platform is a lifetime learning experience
+                        where students can store all previous textbooks, notes, presentations, and others for future reference. </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="img-fluid students-iconbox-sec mt-4 py-5">
+        <h2 class="text-center">Check Out These Tools Below</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4 col-4 col-xl-4 col-xxl-4 p-xxl-5 p-xl-5 p-lg-4 p-md-2">
+                        <div class="icon-box d-flex flex-column align-item-center justify-content-center p-5">
+                            <img src="./assets/Mask Group 105.png" alt="" class="img-fluid mx-auto">
+                            <h5 class="mt-3 text-center">Powerful<br>Learning Tools</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-4 col-xl-4 col-xxl-4 p-xxl-5 p-xl-5 p-lg-4 p-md-2">
+                        <div class="icon-box d-flex flex-column align-item-center justify-content-center p-5">
+                            <img src="./assets/Mask Group 110.png" alt="" class="img-fluid mx-auto">
+                            <h5 class="mt-3 text-center">Collaborative
+                                <br>Communication Tools </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-4 col-xl-4 col-xxl-4 p-xxl-5 p-xl-5 p-lg-4 p-md-2">
+                        <div class="icon-box d-flex flex-column align-item-center justify-content-center p-5">
+                            <img src="./assets/Mask Group 111.png" alt="" class="img-fluid mx-auto">
+                            <h5 class="mt-3 text-center">Sophisticated
+                                <br>Usability Tools </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="conatainer py-5">
+        <div class="row">
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3"></div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-5">
+                <h1 class="text-center mb-3">Powerful Learning Tools</h1>
+                <p class="text-center">LMS, whiteboard, digital document tool, drive, ByeTalk, presentations, design, video creation</p>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3"></div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------- -->
+    <section class="container students-imgs-alternate">
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6  pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Creating Vocabulary Cards</h5>
+                <p>Users can highlight text and create a vocabulary card with the text they highlighted as the vocabulary word. They will then need to input the definition. </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/vocab-cards.png" alt="" class="img-fluid" width="100%">
+            </div>
+        </div>
+        <div class="row my-5">
+
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/translate-desktop.png" alt="" class="img-fluid" width="100%">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Translation </h5>
+                <p>User can highlight a text, hover box will appear and they can select to translate the word in whatever language they would like.</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex pe-xl-4 pe-xxl-5 flex-column justify-content-center">
+                <h5>Adding Post-It Notes </h5>
+                <p>User can insert a post-it note or page flag. They can select the color of the post-it note and page flag. The page flag will mark the page they are on (as a book mark). A post-it note can be inserted free-standing or a user can highlight
+                    a text, add a post-it note and that note will be linked to the highlighted text they selected.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/post-it-note-desktop.png" alt="" class="img-fluid" width="100%">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/annotation.png" alt="" class="img-fluid" width="100%">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Annotating </h5>
+                <p>User can write using the pen tool and select the color of their choice.</p>
+            </div>
+
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Highlighting </h5>
+                <p>User can highlight a text and hover box will appear and they can select the color of the highlight they would like. </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/highlighting.png" alt="" class="img-fluid" width="100%">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/whiteboard-drawing.png" alt="" class="img-fluid" width="100%">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Drawing </h5>
+                <p>Using the pen annotation tool, users can draw on the PDF.</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Adding Hyperlinks</h5>
+                <p> By highlighting text, a hover box will appear, and a user can insert a hyperlink by copy-pasting the link from an external site. Whenever the user rolls over this selected text, the hyperlink will appear as a hover option.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/hyperlink.png" alt="" class="img-fluid" width="100%">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                <img src="./assets/record-voice-memo-desktop.png" alt="" class="img-fluid" width="100%">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center">
+                <h5>Recording Voice Notes </h5>
+                <p>Voice notes can either be recorded inside of the PDF or uploaded from an external source (mp4 format from desktop or Google Drive).</p>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="pt-5 child-sec">
+            <h2 class="text-center">Sophisticated Usability Tools </h2>
+            <div class="row my-5">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center">
+                    <h5>Chatting with Groups </h5>
+                    <p>Users can direct message a particular person or a group message thread can be created by adding multiple people using their username or email address.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+                    <img src="./assets/groupchat-on-desktop-2.png" alt=" " class="img-fluid " width="100% ">
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/tagging-people.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Tagging Instructors and Classmates </h5>
+                    <p>Users can tag others by typing “@” followed by username or email address in a message or comment on the PDF. </p>
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Adding Emojis </h5>
+                    <p>Users can insert an array of emojis to display emotion throughout a PDF document. They can also be added to comments. </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/emoji-screenshot-2.png" alt=" " class="img-fluid " width="100% ">
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/agree-disagree.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center">
+                    <h5>Agreeing and Disagreeing </h5>
+                    <p>Similar to Facebook capability, user can like a comment made by someone else as well as themselves. </p>
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Upvoting and Downvoting </h5>
+                    <p> Similar to Reddit capability, a user can either upvote or downvote with another user’s comment as a way to show agreement/ disagreement. </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/upvote.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pt-5 child-sec">
+            <h2 class="text-center ">Sophisticated Usability Tools </h2>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/upload-files.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Attaching Other Files </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum neque deleniti blanditiis minus possimus hic corrupti nisi. Optio officia doloribus nostrum deleniti, praesentium repellendus explicabo illo autem dolor adipisci.</p>
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Rearranging Pages </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id earum quasi, est perferendis ullam exercitationem optio iste iusto voluptate molestias ut sapiente fugiat error incidunt repudiandae libero ab possimus vitae?</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/desktop-rearrange.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/add-image.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Adding Pictures </h5>
+                    <p>Users can insert an array of emojis to display emotion throughout a PDF document. They can also be added to comments. </p>
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 pe-xl-4 pe-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Inserting Data </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil necessitatibus doloribus molestiae eos? Commodi nam enim, accusamus inventore incidunt harum aspernatur, alias beatae soluta repellendus cumque, quidem sit error?</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/agree-disagree.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center ">
+                    <img src="./assets/edit-text.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ps-xl-4 ps-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Changing Font Type, Size, Style and Color </h5>
+                    <p>By highlighting selected test, hover box will appear, and user can manipulate the font, font size, style (bold, italic, cross out) and color.</p>
+                </div>
+            </div>
+            <div class="row my-5 ">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-0 px-md-2 px-lg-4 px-xl-5 px-xxl-5 d-flex flex-column justify-content-center ">
+                    <h5>Scheduling Meetings </h5>
+                    <p>Meetings can be set and sent out to users. Users can select which format they would like for their meeting (Google Meet, Zoom, ByeTalk).</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-0 px-md-2 px-lg-4 px-xl-5 px-xxl-5 d-flex align-items-center ">
+                    <img src="./assets/schedule-meeting.png " alt=" " class="img-fluid " width="100% ">
+                </div>
+            </div>
+    </section>
+    <!-- -------------scripts----------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>

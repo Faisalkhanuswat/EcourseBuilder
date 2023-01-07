@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="./assets/Group 21.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/mystyle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+</head>
+
+<body>
+    <!-- ------------------navbar-------------------------- -->
+    <nav class="navbar navbar-expand-xl bg-white px-md-2 py-3 w-100" style="z-index: 999">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="./assets/ECourse Builder Logo.svg" alt="" class="site-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-lg-0 nav-menu my-5 my-md-5 my-lg-5 my-xl-0 my-xxl-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./features.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features
+              </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="./features.html#lms">LMS</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./features.html#byetalk">Bye Talk</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#whiteboard"
+                    >Whiteboard</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#eDoc"
+                    >E-Doc Editor</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#alert-system"
+                    >Inside Room</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#presentation"
+                    >Presentation</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#my-courses"
+                    >My Courses</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#assignments"
+                    >Assignment</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#gradebook"
+                    >Gradebook</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#calendar"
+                    >Calendar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./features.html#drive"
+                    >Drive</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Industries
+              </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="./industries-higher-education.html">Higher Education</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Government</a></li>
+                                    <li><a class="dropdown-item" href="#">Business</a></li>
+                                    <li><a class="dropdown-item" href="#">Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="./resources-students.html">Students</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./resources-teachers.html"
+                    >Teacher</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./resources-administrators.html"
+                    >Administration</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Parents</a></li>
+                                    <li><a class="dropdown-item" href="#">Tutorials</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./support.html">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About Us</a>
+                            </li>
+                        </ul>
+                        <ul class="login-navbar-nav ps-0 mt-5 mt-md-5 mt-lg-5 mt-xl-0 mt-xxl-0">
+                            <li class="nav-item signup-btn">
+                                <a class="nav-link" aria-current="page" href="/ecb/public/signup">Sign up for Free</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/ecb/public/login"
+                >sign in</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -------------------page content------------------------- -->
+
+    <section
+      class="container-fluid d-flex flex-column justify-content-between align-item-center home-hero py-5"
+    >
+      <div class="container">
+        <div class="d-flex flex-column justify-content-between">
+          <h1 class="text-center text-white">
+            The World’s Most Comprehensive Learning Management System
+          </h1>
+          <div
+            class="d-flex justify-content-center home-hero-btncontainer"
+          ></div>
+        </div>
+      </div>
+      <div class="row position-relative">
+        <div
+          class="col-12 col-md-12 col-lg-12 col-xl-7 col-xxl-7 d-flex justify-content-center"
+        >
+          <button class="mx-auto">
+            <a href="/ecb/public/signup" class="text-white text-decoration-none"
+              >Try it For Free</a
+            >
+          </button>
+        </div>
+        <div
+          class="col-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5 d-flex justify-content-center p-0 mt-md-4"
+        >
+          <div
+            class="info-content d-flex justify-content-between align-item-center px-2 px-sm-2 px-md-3 px-lg-4 px-xl-5 px-xxl-5 py-4"
+          >
+            <h3 class="text-center me-4">20<br /><span>Universities</span></h3>
+            <h3 class="text-center me-4">
+              10,000<br /><span>Students Served</span>
+            </h3>
+            <h3 class="text-center">#1<br /><span>Ranked LMS</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="conatiner-fluid px-2 px-md-3 px-lg-4 px-xl-4 px-xxl-5 py-5 home-logos-sec row justify-content-around"
+    >
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/LMS.svg" alt=" " />
+        <p>LMS</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/Byetalk.svg" alt=" " />
+        <p>BYETALK</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/whiteboard.svg" alt=" " />
+        <p>WHITEBOARD</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/E doc.svg" alt=" " />
+        <p>E-DOC EDITOR</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/Alert.svg" alt=" " />
+        <p>ALERT SYSTEM</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img
+          src="./assets/presentaion.svg"
+          alt=" "
+          style="width: 56px !important"
+        />
+        <p>PRESENTATION</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/my courses.svg" alt=" " />
+        <p>MY COURSES</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/assignments.svg" alt=" " />
+        <p>ASSIGNMENTS</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img
+          src="./assets/gradebook.svg"
+          alt=""
+          style="width: 40px !important"
+        />
+        <p>GRADEBOOK</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/calendar.svg" alt=" " />
+        <p>CALENDAR</p>
+      </div>
+      <div class="logo-item col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 p-0">
+        <img src="./assets/drive.svg " alt=" " />
+        <p>DRIVE</p>
+      </div>
+      <!-- <div class="logo-item col-3 col-md-2 col-lg-2 col-xl-1 col-xxl-1">
+                <img src="./assets/Mask Group 10.png " alt=" ">
+                <p>LMS</p>
+            </div> -->
+    </section>
+
+    <section class="container home-about-sec">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <img
+            src="./assets/families-communicating-remotely-video-conference-2022-03-30-04-55-30-utc.png"
+            alt=""
+            width="100%"
+          />
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-lg-3 p-xl-5 p-xxl-5 mt-4"
+        >
+          <p class="mb-5">
+            Everyone deserves an extraordinary learning experience. E-Course
+            Builder can help you achieve your goals.
+          </p>
+          <button class="">
+            <a href="/ecb/public/signup" class="text-white text-decoration-none"
+              >Sign up for Free</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid home-reviews">
+      <h3 class="text-center">Reviews</h3>
+
+      <!-- ------carousel---------- -->
+      <div class="container p-4 position realtive">
+        <div class="owl-carousel owl-theme">
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 466.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                E-Course Builder is the most well-rounded and user-friendly LMS
+                system I have used. Their features are incomparable with other
+                companies. For instance, E-doc editor helps me take notes on my
+                e-books rather than a physical copy.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 467.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                The great thing about this product is that all of its features
+                are within the program meaning that you can have virtual
+                meetings and edit documents without requiring to download
+                multiple applications.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 461.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                I highly recommend this product to other colleges, students and
+                professors. I am a graduate program student and my previous
+                school used another product that would frequently glitch, be
+                unavailable for maintenance and was overall unreliable.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 46.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                This semester all of my courses are online. E-Course Builder not
+                only is has reminders and checklists to keep me on track while
+                juggling multiple classes but it also has many features that I
+                enjoy using such as ByeTalk and E-doc Editor.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 462.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                I am a professor that has tried this product and I am pleasantly
+                pleased. I have seen an improvement on performance for my
+                students and they have given me positive feedback.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 463.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                I recently started using this product but I was very intrigued
+                with all its capabilities. The founders of this product really
+                kept the students and teacher experience in mind.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 464.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                I did not know technology like this exists. This is the most
+                comprehensive LMS I have used. Its features and tools are
+                unparallel to what is currently on the market.
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="d-flex flex-column">
+              <div class="mt-2 d-flex justify-content-center">
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star active-star"></span>
+                <span class="fas fa-star-half-alt active-star"></span>
+              </div>
+              <div
+                class="d-flex flex-row profile pt-4 mt-auto justify-content-center align-item-center my-4"
+              >
+                <img
+                  src="./assets/Ellipse 465.svg"
+                  alt=""
+                  class="rounded-circle"
+                />
+              </div>
+              <div class="testimonial">
+                E-Course Builder should be used by all schools and universities.
+                By using this product my grades have improved because I have
+                received alerts on what subjects I can improve on. Additionally,
+                I really enjoy using E-doc Editor and truly did not know a
+                product like this exists.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------ -->
+    </section>
+
+    <section class="container home-aboutus-sec">
+      <div class="row">
+        <div
+          class="col-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 d-flex flex-column justify-content-center mt-5 mt-md-0"
+        >
+          <h3>About US</h3>
+          <p class="">
+            The central goal of E-Course Builder is to empower professors to
+            deliver their course content in the best manner possible and to
+            improve student performance. E-Course Builder is a next generation
+            learning management software that allows professors to fully
+            customize their classes to the exact specifications they require to
+            teach in the most effective manner. Our cutting-edge technology is a
+            product of its own, with the ability for professors and students to
+            customize E-books and course content, create digital flashcards,
+            collaborate, make notes, and connect on our video conferencing
+            technology.
+          </p>
+        </div>
+        <div
+          class="col-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 d-flex align-item-center justify-content-center"
+        >
+          <img
+            class="img-fluid"
+            src="./assets/business-team-working-while-doing-a-video-call-on-2022-01-11-23-53-02-utc.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container home-icon-boxes-sec">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-xxl-4 p-xl-4">
+          <div class="d-flex mb-5 icon-box">
+            <img src="./assets/Mask Group 6.svg" alt="" class="w-25 mb-auto" />
+            <div class="ms-0 ms-md-2 ms-lg-4 ms-xl-4 ms-xxl-4">
+              <h5>Mission</h5>
+              <p>
+                We aim to empower professors to deliver their course content in
+                the best manner possible and to improve student performance.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex mb-5 icon-box">
+            <img src="./assets/Mask Group 5.svg" alt="" class="w-25 mb-auto" />
+            <div class="ms-0 ms-md-2 ms-lg-4 ms-xl-4 ms-xxl-4">
+              <h5>Value</h5>
+              <p>
+                Provide a product well-rounded product with a multitude of tools
+                benefiting teacher and students.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 p-xxl-4 p-xl-4">
+          <div class="d-flex mb-5 icon-box">
+            <img src="./assets/Mask Group 7.svg" alt="" class="w-25 mb-auto" />
+            <div class="ms-0 ms-md-2 ms-lg-4 ms-xl-4 ms-xxl-4">
+              <h5>Culture</h5>
+              <p>
+                We are a US based company, founded in California by a US team of
+                designers, developers, and product team.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex mb-5 icon-box">
+            <img
+              src="./assets/Business Startup-05.svg"
+              alt=""
+              class="w-25 mb-auto"
+            />
+            <div class="ms-0 ms-md-2 ms-lg-4 ms-xl-4 ms-xxl-4">
+              <h5>Vision</h5>
+              <p>
+                E-Course Builder is a next generation learning management system
+                that allows professors to fully customize their classes to the
+                exact specifications they require to teach in the most effective
+                manner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------scripts--------------------------------- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js "></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="30" cy="30" r="30" transform="translate(121 896)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-121 -896)" clip-path="url(#clip-path)">
+    <g id="Business_Startup-01" data-name="Business Startup-01" transform="translate(117.908 892.908)">
+      <path id="Path_176" data-name="Path 176" d="M29.069,53.04H26.236c-1.044-4.86-5.129-11.179-5.419-11.624L20.8,41.4a15.015,15.015,0,1,1,24.571.01l-.062.093c-.021.031-.041.072-.072.114-.745,1.169-4.281,6.856-5.274,11.344H37.125" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_4" data-name="Line 4" y2="8.645" transform="translate(33.092 4.126)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_5" data-name="Line 5" x2="8.656" transform="translate(4.178 30.072)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_6" data-name="Line 6" y1="5.222" x2="6.898" transform="translate(7.26 38.397)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_7" data-name="Line 7" x2="7.601" y2="4.137" transform="translate(8.046 16.081)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_8" data-name="Line 8" x2="4.871" y2="7.156" transform="translate(18.056 7.135)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_9" data-name="Line 9" x1="8.656" transform="translate(53.351 30.072)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_10" data-name="Line 10" x1="6.898" y1="5.222" transform="translate(52.027 38.397)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_11" data-name="Line 11" x1="7.601" y2="4.137" transform="translate(50.538 16.081)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_12" data-name="Line 12" x1="4.871" y2="7.156" transform="translate(43.258 7.135)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_13" data-name="Line 13" y2="25.502" transform="translate(29.069 36.556)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_14" data-name="Line 14" y2="25.502" transform="translate(37.125 36.556)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_15" data-name="Line 15" x2="8.056" transform="translate(29.069 39.09)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_16" data-name="Line 16" x2="8.056" transform="translate(29.069 44.995)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_17" data-name="Line 17" x2="8.056" transform="translate(29.069 51.169)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+      <line id="Line_18" data-name="Line 18" x2="8.056" transform="translate(29.069 58.128)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.068"/>
+    </g>
+  </g>
+</svg>

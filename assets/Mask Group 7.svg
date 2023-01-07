@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="30" cy="30" r="30" transform="translate(1016 776)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(-1016 -776)" clip-path="url(#clip-path)">
+    <g id="Business_Startup-15" data-name="Business Startup-15" transform="translate(1013.056 773.056)">
+      <path id="Path_183" data-name="Path 183" d="M23.576,56.736a9.8,9.8,0,0,1,9.8-9.8h0a9.8,9.8,0,0,1,9.8,9.8" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+      <circle id="Ellipse_26" data-name="Ellipse 26" cx="5.745" cy="5.745" r="5.745" transform="translate(27.632 32.883)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+      <path id="Path_184" data-name="Path 184" d="M42.313,46.74a9.8,9.8,0,0,1,9.8-9.8h0a9.8,9.8,0,0,1,9.8,9.8" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+      <path id="Path_185" data-name="Path 185" d="M57.859,28.631a5.745,5.745,0,1,1-5.745-5.745A5.747,5.747,0,0,1,57.859,28.631Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+      <path id="Path_186" data-name="Path 186" d="M3.974,46.74a9.8,9.8,0,0,1,9.8-9.8h0a9.8,9.8,0,0,1,9.8,9.8" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+      <path id="Path_187" data-name="Path 187" d="M19.52,28.631a5.745,5.745,0,1,1-5.745-5.745A5.747,5.747,0,0,1,19.52,28.631Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+      <path id="Path_188" data-name="Path 188" d="M36.6,28.342V17.769h5.034L32.944,9.152l-8.689,8.617H29.29V28.342" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.059"/>
+    </g>
+  </g>
+</svg>

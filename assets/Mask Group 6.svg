@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="30" cy="30" r="30" transform="translate(121 776)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-121 -776)" clip-path="url(#clip-path)">
+    <g id="Business_Startup-08" data-name="Business Startup-08" transform="translate(119 777.48)">
+      <path id="Path_177" data-name="Path 177" d="M39.07,22.19A47.675,47.675,0,0,1,34.9,41.52H27.65a47.481,47.481,0,0,1-4.17-19.33c-.11-11.32,7.8-18.73,7.8-18.73S39.17,10.87,39.07,22.19Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_178" data-name="Path 178" d="M35.63,21.47a4.36,4.36,0,1,1-4.36-4.36A4.357,4.357,0,0,1,35.63,21.47Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_179" data-name="Path 179" d="M25.47,35.66H19.34s-.37-7.01,4.17-12.07" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_180" data-name="Path 180" d="M37.08,35.66h6.13s.37-7.01-4.17-12.07" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_181" data-name="Path 181" d="M61.01,54.09a6.442,6.442,0,0,1-6.44,6.44H10.07a7.07,7.07,0,1,1,5.15-11.9,5.458,5.458,0,0,1,7.01-1.58c5.08,3.17,5.42-5.53,5.42-5.53H34.9s.73,9.17,4.44,5.78a.538.538,0,0,0,.09-.12A5.83,5.83,0,0,1,49.94,49.6a6.368,6.368,0,0,1,4.63-1.97A6.459,6.459,0,0,1,61.01,54.09Z" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_182" data-name="Path 182" d="M22.22,47.06c-.01-.01-.01-.02-.02-.02" fill="none" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

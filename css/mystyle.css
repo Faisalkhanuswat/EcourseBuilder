@@ -1,0 +1,1184 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    /* colors anf font families 
+    'Poppins', sans-serif;
+    #1C4A82, #FFFFFF, #DFE8F7, #000000
+    */
+    
+     :root {
+        --Thin: 100;
+        --ExtraLight: 200;
+        --Light: 300;
+        --Regular: 400;
+        --Medium: 500;
+        --SemiBlod: 600;
+        --Bold: 700;
+        --ExtraBold: 800;
+        --Black: 900;
+        --primary-blue: #1C4A82;
+        --pure-white: #FFFFFF;
+        --black-text: #000000;
+        --bg-grey: #DFE8F7;
+        --heading: 'Poppins', sans-serif;
+        --body: 'Poppins', sans-serif;
+    }
+    /* --------------Typography------------------- */
+    
+    h1 {
+        font-family: var(--heading);
+        font-size: 54px;
+        line-height: 74;
+        font-weight: var(--Bold);
+    }
+    
+    h2 {
+        font-family: var(--heading);
+        font-family: 50px;
+        line-height: 67;
+        font-weight: var(--SemiBlod);
+    }
+    
+    h3 {
+        font-family: var(--heading);
+        font-size: 40;
+        line-height: 55;
+        font-weight: var(--Bold);
+    }
+    
+    h4 {
+        font-family: var(--heading);
+        font-size: 32;
+        line-height: 43;
+        font-weight: var(--Bold);
+    }
+    
+    h5 {
+        font-family: var(--heading);
+        font-size: 25px;
+        line-height: 33;
+        font-weight: var(--Medium);
+    }
+    
+    h6 {
+        font-family: var(--heading);
+        font-size: 20;
+        line-height: 30;
+        font-weight: var(--Medium);
+    }
+    
+    button {
+        font-family: var(--body);
+        font-weight: var(--Medium);
+        background-color: var(--primary-blue) !important;
+        color: var(--pure-white);
+        border: 1px solid var(--primary-blue);
+        border-radius: 0 !important;
+        padding: 8px 0px !important;
+        text-transform: uppercase !important;
+        border-radius: 6px;
+    }
+    
+    form button {
+        font-family: var(--body) !important;
+        font-weight: var(--Medium) !important;
+        background-color: var(--primary-blue) !important;
+        color: var(--pure-white);
+        border: 1px solid var(--primary-blue) !important;
+        /* border-radius: 6px!important; */
+        padding: 8px 40px !important;
+        text-transform: uppercase !important;
+    }
+    
+    form button:hover {
+        font-family: var(--body);
+        font-weight: var(--Medium);
+        color: var(--primary-blue) !important;
+        background-color: transparent !important;
+        border: 1px solid var(--primary-blue) !important;
+    }
+    
+    button>a {
+        color: var(--pure-white);
+        padding: 8px 40px !important;
+    }
+    
+    button:hover {
+        background-color: transparent !important;
+        color: var(--primary-blue) !important;
+        border-color: var(--pure-white) !important;
+    }
+    
+    p {
+        font-family: var(--body);
+        font-weight: var(--Regular);
+        font-size: 18px;
+        line-height: 26px;
+        color: var(--black-text);
+    }
+    
+    input,
+    textarea {
+        font-family: var(--body);
+        border: 1px solid black;
+        color: var(--black-text);
+        font-size: 16px !important;
+        font-weight: var(--Light) !important;
+        border-radius: 0 !important;
+    }
+    /* input:focus-visible {
+        outline-color: #2E7CD8 !important;
+    } */
+    
+    a {
+        font-family: var(--body);
+        font-weight: var(--Regular);
+        font-size: 16px;
+        color: var(--black-text) !important;
+    }
+    
+    .go-to-top {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: none;
+        place-items: center;
+        color: #fff;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        background-color: var(--primary-blue);
+        cursor: pointer;
+    }
+    /* ------------------------------------------------------------------------- */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* html,
+body {
+    height: 100%;
+} */
+    
+    body {
+        font-family: var(--body) !important;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 8px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        background: transparent !important;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background-color: #989898;
+        border-radius: 5px;
+        transition: 0.3s all ease-in-out;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background-color: #989898;
+        border-radius: 5px;
+        transition: 0.3s all ease-in-out;
+    }
+    /* Handle on hover */
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #98B298;
+    }
+    
+    .navbar {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+    }
+    
+    @media screen and (min-width:1200px) {
+        .navbar {
+            position: sticky !important;
+        }
+    }
+    
+    .navbar .active {
+        color: var(--primary-blue) !important;
+    }
+    /* loginpage */
+    
+    .site-logo {
+        width: 100%;
+    }
+    
+    @media(max-width: 480px) {
+        .site-logo {
+            width: 150px;
+        }
+    }
+    
+    .login-navbar-nav {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .login-navbar-nav li a {
+        margin-right: 14px;
+        font-size: 16px;
+        text-transform: uppercase !important;
+        color: var(--black-text);
+    }
+    
+    .login-navbar-nav li a:hover {
+        color: var(--primary-blue) !important;
+    }
+    
+    @media (max-width: 480px) {
+        .login-navbar-nav>:nth-child(2)>a {
+            margin-right: 0px;
+        }
+    }
+    
+    .login-form input[type=email],
+    .login-form input[type=text],
+    .login-form input[type=password] {
+        min-width: 300px !important;
+    }
+    
+    .login-form input:focus-visible {
+        outline-color: #2E7CD8 !important;
+    }
+    
+    .login-form input[type=checkbox] {
+        border: 1px solid black !important;
+        box-shadow: none !important;
+        border-radius: 2px !important;
+    }
+    
+    .login-form input[type=checkbox]:checked {
+        box-shadow: none !important;
+        outline: 1px solid black !important;
+    }
+    
+    @media (max-width: 992px) {
+        .img-col {
+            display: none;
+        }
+        .form-col {
+            background: url('../assets/woman-in-headphones-having-videocall-using-laptop-2022-01-19-00-03-10-utc.png'), rgba(255, 255, 255, 0.6);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-blend-mode: overlay;
+        }
+    }
+    
+    .row {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    /* --------------pages-navbar--------------------------- */
+    
+    .signup-btn a {
+        background-color: var(--primary-blue);
+        color: var(--pure-white) !important;
+        padding: 4px 15px;
+        border: 1px solid var(--primary-blue);
+        /* border-radius: 10px; */
+    }
+    
+    .signup-btn a:hover {
+        background-color: var(--pure-white);
+    }
+    
+    .navbar-toggler {
+        background-color: transparent !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    
+    .nav-menu li {
+        margin-right: 15px;
+    }
+    
+    .dropdown-menu li {
+        margin-right: 0 !important;
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: var(--primary-blue) !important;
+        color: var(--pure-white) !important;
+    }
+    
+    .nav-link,
+    .dropdown-item {
+        text-transform: capitalize !important;
+    }
+    
+    .nav-link:hover,
+    .dropdown-item:hover {
+        color: var(--primary-blue) !important;
+    }
+    
+    .menu-active {
+        color: var(--primary-blue) !important;
+    }
+    
+    @media (max-width: 1024px) {
+        .menu-active {
+            background-color: var(--primary-blue) !important;
+            color: var(--pure-white) !important;
+        }
+    }
+    
+    .dropdown-menu {
+        padding: 0 !important;
+        border: 1px solid rgba(28, 74, 130, 0.3) !important;
+        border-radius: 0 !important;
+    }
+    
+    @media (max-width: 1199px) {
+        .dropdown-menu {
+            border: 0px !important;
+        }
+    }
+    
+    .dropdown-menu li a {
+        padding: 10px 20px;
+    }
+    
+    @media (max-width: 480px) {
+        .dropdown-menu li a {
+            padding: 10px 30px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .dropdown:hover .dropdown-menu {
+            display: block !important;
+        }
+    }
+    
+    .dropdown .dropdown-menu {
+        animation: fadeIn 0.3s alternate !important;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    /* -----------homepage--------------- */
+    
+    .home-hero {
+        background: url('../assets/group-study-for-school-assignment-2022-02-02-05-05-35-utc.png'), rgba(0, 0, 0, 0.5);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+        min-height: 780px;
+    }
+    
+    @media (max-width: 1024px) {
+        .home-hero {
+            min-height: 600px;
+        }
+    }
+    
+    .home-hero h1 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    }
+    
+    @media(max-width: 480px) {
+        .home-hero h1 {
+            margin-top: 24%;
+        }
+        .home-hero .row>div {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+    }
+    
+    .home-hero-btncontainer {
+        margin-top: 262px;
+    }
+    
+    .home-hero .info-content {
+        background-color: rgba(28, 72, 130, 0.5);
+        color: var(--pure-white);
+        float: right;
+    }
+    
+    .home-hero .row button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+    }
+    
+    .home-hero .info-content h3 {
+        font-weight: var(--Bold) !important;
+    }
+    
+    .home-hero .info-content h3 span {
+        font-size: 17px !important;
+        line-height: 24px !important;
+        font-weight: var(--Medium) !important;
+        text-transform: capitalize;
+    }
+    
+    @media(max-width: 1024px) {
+        .home-hero-btncontainer {
+            margin-top: 130px;
+        }
+        .home-hero .info-content {
+            position: relative;
+            right: 0;
+            bottom: 0;
+        }
+        .home-hero .info-content h3 span {
+            font-size: 14px !important;
+        }
+        .home-hero .row button {
+            position: relative;
+            left: 0%;
+            top: 0%;
+            transform: translate(0%);
+        }
+    }
+    
+    .home-logos-sec .logo-item p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .home-logos-sec .logo-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    @media (max-width: 1024px) {
+        .home-logos-sec .logo-item {
+            margin-top: 20px;
+        }
+    }
+    
+    .home-logos-sec .logo-item img {
+        width: 50px;
+    }
+    
+    .home-logos-sec .logo-item p {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    
+    @media (max-width: 480px) {
+        .home-logos-sec .logo-item p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+    
+    .home-about-sec {
+        margin: 120px 0;
+    }
+    
+    .home-about-sec p {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        line-height: 26px !important;
+    }
+    
+    .home-about-sec button:hover {
+        border: 1px solid var(--primary-blue) !important;
+    }
+    
+    .home-about-sec button:hover a {
+        color: var(--primary-blue) !important;
+    }
+    /* testimonils */
+    
+    .home-reviews h3 {
+        margin-bottom: 40px;
+    }
+    
+    .owl-carousel .owl-item span {
+        padding: 0 5px;
+    }
+    
+    .owl-carousel .owl-item span.active-star {
+        color: #FDE14C;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    .owl-carousel .owl-item .profile img {
+        width: 80px;
+    }
+    
+    .owl-carousel .owl-item {
+        border: 1px solid rgba(28, 74, 130, 0.06);
+        min-height: 420px !important;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    
+    .owl-carousel .owl-item .testimonial {
+        padding: 0px 20px 20px 20px;
+    }
+    
+    .owl-carousel .owl-nav>div {
+        color: var(--black-text) !important;
+        background-color: transparent !important;
+        border: 1px solid var(--black-text) !important;
+        border-radius: 50% !important;
+        padding: 8px 13px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .owl-carousel .owl-nav>.owl-next {
+        position: absolute !important;
+        top: 50%;
+        right: -8%;
+        transform: translateY(-50%);
+    }
+    
+    .owl-carousel .owl-nav>.owl-prev {
+        position: absolute !important;
+        top: 50%;
+        left: -8%;
+        transform: translateY(-50%);
+    }
+    
+    .owl-carousel .owl-nav.disabled {
+        display: block !important;
+    }
+    
+    @media (max-width: 1440px) and (min-width: 769px) {
+        .owl-carousel .owl-nav>div.owl-prev {
+            left: -5% !important;
+        }
+        .owl-carousel .owl-nav>div.owl-next {
+            right: -5%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .owl-carousel .owl-nav>div.owl-prev {
+            position: relative !important;
+            transform: translateY(0%);
+        }
+        .owl-carousel .owl-nav>div.owl-next {
+            position: relative !important;
+            transform: translateY(0%);
+        }
+    }
+    /* ----home-aboutus-section--- */
+    
+    .home-aboutus-sec {
+        margin: 120px 0;
+    }
+    
+    @media (max-width: 992px) {
+        .home-aboutus-sec {
+            margin: 80px 0;
+        }
+    }
+    
+    .home-aboutus-sec img {
+        height: fit-content !important;
+    }
+    
+    @media (max-width: 480px) {
+        .home-aboutus-sec .row {
+            flex-direction: column-reverse;
+        }
+    }
+    
+    .home-icon-boxes-sec {
+        margin-bottom: 80px;
+    }
+    
+    @media (max-width: 768px) {
+        .home-icon-boxes-sec .icon-box {
+            flex-direction: column !important;
+            align-items: center;
+        }
+    }
+    
+    @media (min-width: 1441px) {
+        .home-icon-boxes-sec .icon-box img {
+            width: 100px !important;
+        }
+    }
+    /* ---------------------------------------About-page------------------------------- */
+    
+    .img-fluid {
+        height: fit-content !important;
+    }
+    
+    .About-hero {
+        background: url('../assets/C\ \(45\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 780px;
+        padding: 80px 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    @media (max-width: 1024px) {
+        .About-hero {
+            min-height: 600px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .About-hero .row>:nth-child(1) {
+            justify-content: center !important;
+        }
+    }
+    
+    .About-Goal-sec {
+        padding: 120px 0;
+    }
+    
+    @media (max-width: 992px) {
+        .About-Goal-sec {
+            padding: 80px 0;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .About-Goal-sec .row {
+            flex-direction: column-reverse;
+        }
+    }
+    
+    .About-Empowering-sec {
+        margin-bottom: 80px;
+    }
+    
+    .About-Empowering-sec .row {
+        padding: 20px 0 !important;
+    }
+    
+    @media (max-width: 767px) {
+        .About-Empowering-sec>:nth-child(even) {
+            flex-direction: column-reverse;
+        }
+    }
+    /* ------------------Support page--------------------- */
+    
+    .Support-hero {
+        padding-top: 30px;
+    }
+    
+    .Support-Implemt-sec {
+        margin: 60px 0;
+    }
+    
+    .Support-Implemt-sec .row {
+        padding: 60px 0 !important;
+    }
+    
+    @media (max-width: 767px) {
+        .Support-Implemt-sec>:nth-child(odd) {
+            flex-direction: column-reverse;
+        }
+        .Support-Implemt-sec .row {
+            padding: 40px 0 !important;
+        }
+        .Support-Implemt-sec {
+            margin: 40px 0;
+        }
+    }
+    /* ---------------------Community-page---------------------------------- */
+    
+    .Community-hero>.row>:last-child {
+        background: url('../assets/software-engineers-working-on-project-2021-08-26-17-32-13-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Community-hero button>a:hover {
+        border: 1px solid var(--primary-blue) !important;
+        color: var(--primary-blue) !important;
+    }
+    /* -----------------Higher-education-page--------------------- */
+    
+    .higher-education-hero {
+        background-color: #81685F;
+    }
+    
+    .higher-education-hero>.container {
+        background: url('../assets/group-of-students-studying-on-laptop-2022-02-02-05-06-20-utc.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .higher-education-hero .row>:last-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .higher-education-hero .row>:last-child button:hover {
+        border-color: var(--primary-blue) !important;
+    }
+    
+    .higher-education-hero .row>:last-child a:hover {
+        color: var(--primary-blue) !important;
+    }
+    
+    .higher-education-second {
+        margin: 120px 0;
+    }
+    
+    @media (max-width: 992px) {
+        .higher-education-second {
+            margin: 80px 0;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .higher-education-second>:nth-child(1) {
+            flex-direction: column-reverse;
+        }
+    }
+    /* ----------------- */
+    
+    .higher-education-third .higher-education-third_inner {
+        background-color: var(--primary-blue);
+    }
+    
+    .higher-education-third .higher-education-third_inner>.row {
+        background-color: #DFE8F7;
+    }
+    
+    .higher-education-third .higher-education-third_inner .item {
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 8px;
+        padding: 35px 20px;
+    }
+    
+    .higher-education-third .higher-education-third_inner i.material-symbols-outlined {
+        font-size: 50px !important;
+    }
+    
+    @media (min-width: 1200px) {
+        .higher-education-third .higher-education-third_inner .row>div {
+            width: 18% !important;
+        }
+        .higher-education-third .higher-education-third_inner .row {
+            justify-content: start !important;
+        }
+    }
+    
+    @media (min-width: 1920px) {
+        .higher-education-third .higher-education-third_inner .row {
+            justify-content: center !important;
+        }
+    }
+    
+    .higher-education-third .higher-education-third_inner .last .item {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 200px;
+        width: 280px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media (mAx-width: 1199px) {
+        .higher-education-third .higher-education-third_inner .last .item {
+            position: relative !important;
+            width: 100% !important;
+        }
+        .higher-education-third .higher-education-third_inner .last i {
+            text-align: center;
+            transform: rotate(90deg);
+        }
+        .higher-education-third .higher-education-third_inner .last>div {
+            flex-direction: column;
+        }
+    }
+    
+    .higher-education-third .higher-education-third_inner .last .item p {
+        font-size: 21px;
+    }
+    /* ---------------------- */
+    
+    .higher-education-imageboxes {
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+    
+    @media (max-width: 992px) {
+        .higher-education-imageboxes {
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+    }
+    
+    .higher-education-imageboxes .img-box ul {
+        position: relative;
+        list-style-type: none;
+        line-height: 38px;
+    }
+    
+    .higher-education-imageboxes .img-box li::before {
+        content: "";
+        background: url('../assets/Mask\ Group\ 38.png');
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 0;
+        margin: 11px 0;
+    }
+    
+    .higher-education-imageboxes img {
+        width: 150px;
+    }
+    
+    @media (max-width: 768px) {
+        .higher-education-imageboxes .img-box {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    /* --------------------students page----------------------- */
+    
+    .students-page-hero {
+        background: url('../assets/shot-of-a-group-of-teenagers-in-a-classroom-at-hig-2022-09-27-00-09-45-utc.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .students-page-second {
+        background: url('../assets/multiracial-young-people-doing-group-study-at-libr-2022-02-02-05-05-42-utc.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .students-page-third {
+        background: url('../assets/young-women-study-in-front-of-the-laptop-computer-2022-07-20-07-17-54-utc.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .students-page-fourth {
+        background: url('../assets/student-preparing-school-assignment-in-library-2022-02-02-05-07-10-utc.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .students-page-fifth {
+        background: url('../assets/group-of-cheerful-young-women-studying-together-2022-02-02-04-51-43-utc.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .students-page-hero .row>:first-child,
+    .students-page-third .row>:first-child,
+    .students-page-fifth .row>:first-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .students-page-second .row>:last-child,
+    .students-page-fourth .row>:last-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .students-iconbox-sec {
+        background-color: #DFE8F7;
+    }
+    
+    .students-iconbox-sec .icon-box {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    .students-iconbox-sec .icon-box img {
+        width: 80px;
+    }
+    
+    @media (max-width: 1024px) {
+        .students-iconbox-sec .icon-box h5 {
+            font-size: 16px;
+        }
+        .students-iconbox-sec .icon-box {
+            margin-top: 30px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .students-imgs-alternate>:nth-child(odd),
+        .students-imgs-alternate>:nth-child(9)>:nth-child(even),
+        .students-imgs-alternate>:nth-child(10)>:nth-child(odd) {
+            flex-direction: column-reverse;
+        }
+        .students-imgs-alternate>.row>div,
+        .students-imgs-alternate>:nth-child(9)>.row>div,
+        .students-imgs-alternate>:nth-child(10)>.row>div {
+            margin-top: 20px;
+        }
+    }
+    
+    .students-imgs-alternate .row {
+        min-height: 720px !important;
+    }
+    
+    @media (max-width: 1024px) {
+        .students-imgs-alternate .row {
+            min-height: 500px !important;
+        }
+    }
+    /* -----------------------teachers-page---------------------------- */
+    
+    .teachers-page-hero {
+        background: url('../assets/a-passport-to-my-future-shot-of-a-class-of-univer-2022-09-13-23-31-24-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .teachers-page-second {
+        background: url('../assets/grey-hair-professor-talking-by-smartphone-and-look-2021-09-01-01-53-21-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .teachers-page-third {
+        background: url('../assets/group-study-in-university-library-2022-02-02-05-06-46-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .teachers-page-fourth {
+        background: url('../assets/teacher-with-beard-helping-latin-student-in-class-2022-01-19-00-22-36-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .teachers-page-fifth {
+        background: url('../assets/university-students-doing-group-study-2022-02-02-05-05-15-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .teachers-page-hero .row>:first-child,
+    .teachers-page-third .row>:first-child,
+    .teachers-page-fifth .row>:first-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .teachers-page-second .row>:last-child,
+    .teachers-page-fourth .row>:last-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .teachers-page-fifth ul {
+        position: relative;
+        list-style-type: none;
+        line-height: 38px;
+        list-style-type: none;
+        color: #000000;
+    }
+    
+    .teachers-page-fifth li::before {
+        content: "";
+        background: url('../assets/Mask\ Group\ 38.png');
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 0;
+        margin: 11px 0;
+    }
+    /* -----------------------Administrators-page---------------------------- */
+    
+    .Administrators-page-hero {
+        background: url('../assets/business-people-using-laptop-at-meeting-in-office-2022-02-02-03-56-12-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Administrators-page-second {
+        background: url('../assets/diverse-business-people-discussing-common-project-2022-04-27-03-30-47-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Administrators-page-third {
+        background: url('../assets/business-meeting-2021-09-24-02-44-05-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Administrators-page-fourth {
+        background: url('../assets/business-meeting-2021-08-26-19-52-37-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Administrators-page-fifth {
+        background: url('../assets/business-meeting-2021-08-26-15-34-40-utc.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .Administrators-page-hero .row>:first-child,
+    .Administrators-page-third .row>:first-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .Administrators-page-second .row>:last-child,
+    .Administrators-page-fourth .row>:last-child {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .Administrators-page-fifth .row>:nth-child(2) {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    /* ----------------Features-page------------------------------------- */
+    
+    .features-logos-sec>div {
+        padding: 5px !important;
+    }
+    
+    .features-logos-sec .logo-item img {
+        width: 40px;
+    }
+    
+    .features-logos-sec .logo-item {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        min-height: 170px;
+    }
+    
+    .features-logos-sec .logo-item p {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        margin-bottom: 0 !important;
+    }
+    
+    .features-sec {
+        padding: 100px 0;
+    }
+    
+    .features-sec h2 {
+        margin-bottom: 120px;
+    }
+    
+    .features-black {
+        padding: 100px;
+    }
+    
+    .features-black ul {
+        list-style-type: circle;
+    }
+    
+    @media (max-width: 480px) {
+        .features-black.bg-black .row {
+            flex-direction: column-reverse;
+        }
+        .features-black .row>:last-child {
+            margin-top: 30px;
+        }
+        .features-black.bg-black .row>:first-child {
+            margin-top: 30px;
+        }
+    }
+    /* ---------------------------------Contact Page------------------------------------- */
+    
+    .contact-hero {
+        background: url('../assets/Contact-hero-img.jpg'), rgba(0, 0, 0, 0.09);
+        background-blend-mode: overlay;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-hero .container {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+    }
+    
+    .contact-form {
+        margin: 80px 0;
+    }
+    
+    .contact-form .row>:first-child h6 {
+        line-height: 30px !important;
+    }
+    
+    .contact-form .row>:first-child h6>span {
+        margin-left: 20px;
+    }
+    
+    .contact-form .contact-form-col {
+        border: 1px solid rgba(0, 0, 0, 0.09);
+    }
+    
+    .contact-form .contact-form-col .contactForm input,
+    .contact-form .contact-form-col .contactForm textarea {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .contact-form .contact-form-col .contactForm input:focus-visible,
+    .contact-form .contact-form-col .contactForm textarea:focus-visible {
+        outline-color: #2E7CD8 !important;
+    }
