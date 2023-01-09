@@ -1112,6 +1112,9 @@ body {
     
     .features-sec {
         padding: 100px 0;
+        min-height: 840px;
+        display: grid;
+        place-items: center;
     }
     
     .features-sec h2 {
@@ -1120,13 +1123,25 @@ body {
     
     .features-black {
         padding: 100px;
+        min-height: 880px;
+        display: grid;
+        place-items: center;
     }
     
     .features-black ul {
         list-style-type: circle;
     }
     
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
+        .features-black {
+            min-height: 500px;
+        }
+        .features-sec {
+            min-height: 500px;
+        }
+    }
+    
+    @media (max-width: 767px) {
         .features-black.bg-black .row {
             flex-direction: column-reverse;
         }
