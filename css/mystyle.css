@@ -963,9 +963,15 @@ body {
         min-height: 720px !important;
     }
     
+    @media (max-width: 1440px) and (min-width: 992px) {
+        .students-imgs-alternate .row {
+            min-height: 600px !important;
+        }
+    }
+    
     @media (max-width: 1024px) {
         .students-imgs-alternate .row {
-            min-height: 500px !important;
+            min-height: 400px !important;
         }
     }
     /* -----------------------teachers-page---------------------------- */
@@ -1115,7 +1121,7 @@ body {
     
     .features-sec {
         padding: 100px 0;
-        min-height: 840px;
+        min-height: 880px;
         display: grid;
         place-items: center;
     }
@@ -1133,6 +1139,15 @@ body {
     
     .features-black ul {
         list-style-type: circle;
+    }
+    
+    @media (max-width: 1440px) {
+        .features-black {
+            min-height: 720px !important;
+        }
+        .features-sec {
+            min-height: 720px !important;
+        }
     }
     
     @media (max-width: 1024px) {
@@ -1169,9 +1184,9 @@ body {
         justify-content: center;
     }
     
-    .contact-hero .container {
+    .contact-hero .container h1 {
         background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
+        padding: 20px 40px;
     }
     
     .contact-form {
