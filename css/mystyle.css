@@ -799,6 +799,9 @@ body {
         .higher-education-third .higher-education-third_inner .row {
             justify-content: center !important;
         }
+        .higher-education-third .higher-education-third_inner i.material-symbols-outlined {
+            margin-left: 20% !important;
+        }
     }
     
     .higher-education-third .higher-education-third_inner .last .item {
